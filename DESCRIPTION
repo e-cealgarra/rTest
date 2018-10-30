@@ -1,9 +1,20 @@
-Package: mypackage
-Title: What The Package Does (one line, title case required)
-Version: 0.1
-Authors@R: person("First", "Last", email = "first.last@example.com",
-                  role = c("aut", "cre"))
-Description: What the package does (one paragraph)
-Depends: R (>= 3.1.0)
-License: What license is it under?
+Package: mapackage
+Title: MaPackageLOL
+Version: 1.0.2.9000
+Authors@R: c(
+    person("Jim", "Hester", email = "james.f.hester@examp.com", role = c("aut", "cre")),
+    person("Florent", "Angly", role = "aut")
+    )
+URL: https://github.com/e-cealgarra/rTest
+BugReports: https://github.com/e-cealgarra/rTest/issues
+Description: Checks adherence to a given style, syntax errors and possible
+    semantic issues.  Supports on the fly checking of R code edited with 'RStudio IDE', 'Emacs',
+    'Vim', 'Sublime Text' and 'Atom'.
+Depends:
+    R (>= 3.1.1)
+License: lolicense
 LazyData: true
+VignetteBuilder: knitr
+RoxygenNote: 6.1.0
+Collate: 
+    'filename.R'
