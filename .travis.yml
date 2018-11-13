@@ -1,6 +1,0 @@
-language: r
-r_github_packages:
-  - jimhester/lintr
-after_success:
-  - Rscript -e 'ls'
-  - Rscript -e 'lintr::lint('rndnumgenplot.R')'
